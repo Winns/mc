@@ -1,0 +1,43 @@
+* { margin: 0; padding: 0; }
+
+body {
+	font-family: helvetica;
+	font-size: 13px;
+	
+	color: #fff;
+	background: #111;
+}
+
+#menu-channels {
+	display: block;
+	margin: 20px 0;
+	text-align: center;
+}
+	#menu-channels li {
+		display: inline-block;
+		margin: 0 6px;
+		padding: 4px 8px;
+
+		boder: 1px solid #fff;
+		cursor: pointer;
+	}
+	#menu-channels li.active {
+		color: #222;
+		background: #fff;
+	}
+	
+	
+#channels {
+	display: block;
+	margin-bottom: 10px;
+	text-align: center;
+}
+	#channels li {
+		display: none;
+		margin: 0 6px;
+		background: #000;
+	}
+	#channels li.active { display: inline-block; }
+		
+		
+		
