@@ -71,7 +71,7 @@ $(function() {
 		
 		this.init = function() {
 		
-			this.open([ 'sc2tv', 'goodgame' ]);
+			this.open([ 'sc2tv', 'goodgame', 'cybergame' ]);
 		
 			this.el.$menu.on( 'click', function() {
 				var id = $( this ).attr( 'data-id' );
