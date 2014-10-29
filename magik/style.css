@@ -15,7 +15,7 @@ body {
 }
 	#menu-channels li {
 		display: inline-block;
-		margin: 0 6px 12px 6px;
+		margin: 0 6px;
 		padding: 4px 8px;
 
 		boder: 1px solid #fff;
@@ -34,7 +34,7 @@ body {
 }
 	#channels li {
 		display: none;
-		margin: 0 6px;
+		margin: 0 6px 12px 6px;
 		background: #000;
 	}
 	#channels li.active { display: inline-block; }
