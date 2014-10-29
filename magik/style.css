@@ -16,7 +16,7 @@ body {
 	#menu-channels li {
 		display: inline-block;
 		margin: 0 6px;
-		padding: 4px 8px;
+		padding: 8px 12px;
 
 		boder: 1px solid #fff;
 		cursor: pointer;
